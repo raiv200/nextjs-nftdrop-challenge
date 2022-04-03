@@ -17,7 +17,7 @@ module.exports = {
         },
         bounce:{
           '0%, 100% ':{
-            transform: 'translateY(-10%)',
+            transform: 'translateY(-5%)',
             animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)',
           },
           '50%':{
@@ -26,17 +26,11 @@ module.exports = {
            
           },
         },
-        ping : {
-          '75%, 100%' : {
-            transform: 'scale(1.00001)',
-            opacity: 0.5,
-          }
-        },
+        
       },
       animation: {
         wiggle: 'wiggle 1s ease-in-out infinite',
-        bounce :'bounce 0.9s infinite',
-        ping: 'ping 2s cubic-bezier(0, 0, 0.2, 1) infinite'
+        bounce :'bounce 1s infinite',
       },
       
     },
